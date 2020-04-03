@@ -1,0 +1,20 @@
+{
+    "name": "rajesh/laravel-query-logger",
+    "description": "Laravel Query Logger",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VcLabs\\LaravelQueryLogger\\": "src"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": ["VcLabs\\LaravelQueryLogger\\ServiceProvider"]
+        }
+    }
+}
