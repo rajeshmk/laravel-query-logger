@@ -1,6 +1,6 @@
 <?php
 
-namespace VcLabs\LaravelQueryLogger\ServiceProvider;
+namespace VcLabs\LaravelQueryLogger;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Facades\DB;
