@@ -5,9 +5,8 @@ namespace VcLabs\LaravelQueryLogger;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class ServiceProvider extends LaravelServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function boot()
     {

@@ -2,6 +2,7 @@
     "name": "rajesh/laravel-query-logger",
     "description": "Laravel Query Logger",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^7.2"
     },
@@ -10,11 +11,16 @@
             "VcLabs\\LaravelQueryLogger\\": "src/"
         }
     },
-    "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
-            "providers": ["VcLabs\\LaravelQueryLogger\\ServiceProvider"]
+            "providers": [
+                "VcLabs\\LaravelQueryLogger\\ServiceProvider"
+            ]
         }
+    },
+    "require-dev": {
+        "laravel/framework": "7.x"
     }
 }
